@@ -2,6 +2,7 @@ import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
+from pageObjects.WindowsTabsAlerts import WindowTabAlert
 from testData.SeleniumPracticeData import SeleniumPracticeData
 
 
@@ -36,6 +37,8 @@ class OptionsCombos:
     def perform_staticCombo(self, staticOption):
         static_Dropdown = Select(self.driver.find_element(*OptionsCombos.staticCombo))
         static_Dropdown.select_by_visible_text(staticOption)
+        windowTabAlert_obj = WindowTabAlert(self.driver)
+        return windowTabAlert_obj
 
 
 

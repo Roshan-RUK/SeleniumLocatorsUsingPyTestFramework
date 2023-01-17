@@ -6,3 +6,14 @@
 2023-01-17 19:08:06,859 :INFO : test_seleniumAutomationPractice :After CheckBox Option
 2023-01-17 19:08:07,551 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
 2023-01-17 19:08:07,726 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-18 02:26:37,027 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-18 02:26:37,269 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-18 02:26:37,870 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-18 02:26:38,010 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-18 02:37:09,112 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-18 02:37:09,347 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-18 02:37:09,995 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-18 02:37:10,136 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-18 02:37:20,074 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-18 02:37:22,694 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-18 02:37:22,987 :INFO : test_seleniumAutomationPractice :After Tabs Operation
