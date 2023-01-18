@@ -53,6 +53,19 @@ def test_sample():
     alert_text = alert_data.text
     assert "Roshan" in alert_text
     alert_data.accept()
+    price_elements = driver.find_elements(By.XPATH, "//table[@class='table-display']/tbody/tr/td[3]")
+    sum = 0
+    for each_price in price_elements:
+        sum = sum + int(each_price.text)
+    print(sum)
+    driver.execute_script("window.scrollBy(0,600);")
+    driver.execute_script("document.querySelector('.tableFixHead').scrollTop=5000;")
+    table_names = driver.find_elements(By.CSS_SELECTOR, ".tableFixHead td:nth-child(1)")
+    for each_name in table_names:
+        if each_name.text == "Smith":
+            print("Smith name found")
+
+
     time.sleep(2)
 
 

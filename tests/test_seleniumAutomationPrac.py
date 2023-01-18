@@ -43,12 +43,25 @@ class TestSeleniumAutoPrac(BaseClass):
         print(self.driver.title + "\nInside Parent Tab")
         log.info("After Tabs Operation")
         windowTabAlert_obj.perform_AlertEnterOperation().send_keys(getData["alertValue"])
-        windowTabAlert_obj.perform_AlertClickOperation().click()
+        webTableOperation_obj = windowTabAlert_obj.perform_AlertClickOperation()
         alert_data = self.driver.switch_to.alert
         alert_text = alert_data.text
         assert getData["alertValue"] in alert_text
         alert_data.accept()
         log.info("After Tabs Operation")
+        #To perform Web table Operations
+        price_elements = webTableOperation_obj.perform_getAllPrices()
+        sum = 0
+        for each_price in price_elements:
+            sum = sum + int(each_price.text)
+        print(sum)
+        webTableOperation_obj.perform_windowScroll()
+        webTableOperation_obj.perform_InsideWindowScrollTop()
+        table_names = webTableOperation_obj.perform_getAllNames()
+        for each_name in table_names:
+            if each_name.text == getData["tableName"]:
+                print("Smith name found")
+                log.info("Scroll Operation Occurred and name found")
         time.sleep(2)
 
     @pytest.fixture(params=SeleniumPracticeData.selenium_practice_data)

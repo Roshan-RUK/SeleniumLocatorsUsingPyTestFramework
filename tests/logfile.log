@@ -17,3 +17,32 @@
 2023-01-18 02:37:20,074 :INFO : test_seleniumAutomationPractice :After Windows Operation
 2023-01-18 02:37:22,694 :INFO : test_seleniumAutomationPractice :After Tabs Operation
 2023-01-18 02:37:22,987 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:20:11,560 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 00:20:11,705 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 00:20:12,620 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 00:20:12,755 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 00:20:22,627 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 00:20:24,680 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:20:25,016 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:22:22,092 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 00:22:22,268 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 00:22:22,894 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 00:22:23,027 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 00:22:31,178 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 00:22:33,321 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:22:33,662 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:23:09,683 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 00:23:09,836 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 00:23:10,527 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 00:23:10,675 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 00:23:19,329 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 00:23:21,548 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:23:21,847 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:25:15,323 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 00:25:15,695 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 00:25:16,375 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 00:25:16,519 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 00:25:24,884 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 00:25:26,946 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:25:27,265 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 00:25:32,945 :INFO : test_seleniumAutomationPractice :Scroll Operation Occurred and name found

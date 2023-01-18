@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 
+from pageObjects.WebTableOperations import WebTableOperations
+
 
 class WindowTabAlert:
     def __init__(self, driver):
@@ -20,6 +22,8 @@ class WindowTabAlert:
         return self.driver.find_element(*WindowTabAlert.alertName)
 
     def perform_AlertClickOperation(self):
-        return self.driver.find_element(*WindowTabAlert.alertCLick)
+        self.driver.find_element(*WindowTabAlert.alertCLick).click()
+        webTableOps_Obj = WebTableOperations(self.driver)
+        return webTableOps_Obj
 
 
