@@ -17,3 +17,6 @@ class BaseClass:
         logger.addHandler(fileHandler)
         logger.setLevel(logging.INFO)
         return logger
+
+    def switchToDefault(self):
+        self.driver.switch_to.default_content()
