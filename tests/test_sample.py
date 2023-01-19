@@ -2,6 +2,7 @@ import time
 
 
 from selenium import webdriver
+from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
@@ -65,7 +66,13 @@ def test_sample():
         if each_name.text == "Smith":
             print("Smith name found")
 
-
+    #Action operation
+    action =ActionChains(driver)
+    action.move_to_element(driver.find_element(By.ID, "mousehover")).perform()
+    action.move_to_element(driver.find_element(By.CSS_SELECTOR, ".mouse-hover-content a:nth-child(1)")).click().perform()
+    driver.switch_to.frame("courses-iframe")
+    driver.find_element(By.CSS_SELECTOR, "a[href*='consult']").click()
+    driver.switch_to.default_content()
     time.sleep(2)
 
 

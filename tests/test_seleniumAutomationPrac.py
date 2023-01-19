@@ -1,6 +1,7 @@
 import time
 
 import pytest
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
@@ -57,11 +58,20 @@ class TestSeleniumAutoPrac(BaseClass):
         print(sum)
         webTableOperation_obj.perform_windowScroll()
         webTableOperation_obj.perform_InsideWindowScrollTop()
-        table_names = webTableOperation_obj.perform_getAllNames()
+        actionFrames_obj, table_names = webTableOperation_obj.perform_getAllNames()
         for each_name in table_names:
             if each_name.text == getData["tableName"]:
                 print("Smith name found")
                 log.info("Scroll Operation Occurred and name found")
+
+        #Per Action and Iframes handling
+        action = ActionChains(self.driver)
+
+        action.move_to_element(actionFrames_obj.perform_moveButton()).perform()
+        action.move_to_element(actionFrames_obj.perform_moveList()).click().perform()
+        actionFrames_obj.perform_switchTOFrame()
+        actionFrames_obj.perform_selectConsult().click()
+        self.switchToDefault()
         time.sleep(2)
 
     @pytest.fixture(params=SeleniumPracticeData.selenium_practice_data)
