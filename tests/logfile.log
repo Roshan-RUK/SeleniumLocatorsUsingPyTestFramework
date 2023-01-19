@@ -46,3 +46,26 @@
 2023-01-19 00:25:26,946 :INFO : test_seleniumAutomationPractice :After Tabs Operation
 2023-01-19 00:25:27,265 :INFO : test_seleniumAutomationPractice :After Tabs Operation
 2023-01-19 00:25:32,945 :INFO : test_seleniumAutomationPractice :Scroll Operation Occurred and name found
+2023-01-19 12:33:52,500 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 12:33:52,692 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 12:33:53,609 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 12:33:53,759 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 12:34:00,321 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 12:34:02,827 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 12:34:03,179 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 12:42:03,505 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 12:42:03,649 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 12:42:04,279 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 12:42:04,424 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 12:42:13,158 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 12:42:15,508 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 12:42:15,839 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 12:42:16,532 :INFO : test_seleniumAutomationPractice :Scroll Operation Occurred and name found
+2023-01-19 12:44:08,439 :INFO : test_seleniumAutomationPractice :After Radio Option
+2023-01-19 12:44:08,605 :INFO : test_seleniumAutomationPractice :After CheckBox Option
+2023-01-19 12:44:09,223 :INFO : test_seleniumAutomationPractice :After Dynamic Combo box
+2023-01-19 12:44:09,390 :INFO : test_seleniumAutomationPractice :After Select combo box
+2023-01-19 12:44:17,295 :INFO : test_seleniumAutomationPractice :After Windows Operation
+2023-01-19 12:44:19,591 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 12:44:19,942 :INFO : test_seleniumAutomationPractice :After Tabs Operation
+2023-01-19 12:44:20,699 :INFO : test_seleniumAutomationPractice :Scroll Operation Occurred and name found
