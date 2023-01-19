@@ -1,5 +1,7 @@
 from selenium.webdriver.common.by import By
 
+from pageObjects.ActioniFrames import ActionsiFrames
+
 
 class WebTableOperations:
     def __init__(self, driver):
@@ -20,6 +22,9 @@ class WebTableOperations:
         return self.driver.execute_script(WebTableOperations.topScroll)
 
     def perform_getAllNames(self):
-        return self.driver.find_elements(*WebTableOperations.tableName)
+        self.driver.find_elements(*WebTableOperations.tableName)
+        actionFrames_obj = ActionsiFrames(self.driver)
+        return actionFrames_obj, self.driver.find_elements(*WebTableOperations.tableName)
+
 
 
