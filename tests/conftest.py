@@ -15,12 +15,14 @@ def setup(request):
     if browser_name == "chrome":
         service_obj = Service("C:\ChromeDPython\chromedriver.exe")
         driver = webdriver.Chrome(service=service_obj)
+
     elif browser_name == "firefox":
         service_obj = Service("C:\ChromeDPython\chromedriver.exe")
-        driver = webdriver.firefox(service=service_obj)
+        driver = webdriver.Firefox(service=service_obj)
+    driver.get("https://rahulshettyacademy.com/angularpractice/")
     driver.maximize_window()
-    driver.get("https://rahulshettyacademy.com/AutomationPractice/")
     request.cls.driver = driver
     yield
     driver.close()
+
 
