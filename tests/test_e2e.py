@@ -1,14 +1,8 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 
-from pageObjects.CheckOutPage import CheckOutPage
-from pageObjects.ConfirmPage import ConfirmPage
 from pageObjects.HomePage import HomePage
 from utilities.BaseClass import BaseClass
 
-
-#@pytest.mark.usefixtures("setup")
 class TestOne(BaseClass):
 
     def test_e2e(self):
